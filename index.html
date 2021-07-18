@@ -8,29 +8,28 @@
         <link rel="stylesheet" href="./assets/style.css" />    
     </head>
     
-    <body>
-        <header>
+    <body> <!-- created body of the page-->
+        <header> <!--header with highscores and a counting timer-->
             <div id="Scores" class="btn">Highscores</div>
             <div class=time id="time"> Time: </div>
         </header>
 
-        <div class="container">
-            <div class="hide" id="quiz">
+        <div class="container"> <!--cointainer for the questions and answer-->
+            <div class="hide" id="quiz"> <!--class and id to switch between questions and the start of the quiz-->
                 <div id="question">Question</div>
-                <div id="answer-buttons" class="btn-grid">
+                <div id="answer-buttons" class="btn-grid"> <!--created a grid for the questions-->
                     <button class="btn">Answer 1</button>
                     <button class="btn">Answer 2</button>
                     <button class="btn">Answer 3</button>
                     <button class="btn">Answer 4</button>
                 </div>
             </div>
-        <div class="controls">  
+        <div class="controls">  <!--created a div for the controls start and next question-->
         <button  id="start" class="start-btn btn">start</button>
         <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
         </div>  
-        <div id="results"></div>
-        <script src="./assets/script.js"></script>
+        <script src="./assets/script.js"></script> <!--call script-->
 
     </body>
 </html>
